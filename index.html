@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Pagina</title>
+    
+    <link rel="stylesheet" type="text/css" href="/aula_bootstrap/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="/aula_bootstrap/css/style.css">
+
+</head>
+<body>
+    
+    <nav  class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            
+          <img src="/aula_bootstrap/img/Sem título-1.png " style="width: 50px;" class="linkactive" > </a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#quemsomos" style="color: aliceblue;">5D Studio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quemsomos" style="color: aliceblue;">Quem Somos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#serviços" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue;">
+                  Serviços
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#serviços">Render</a></li>
+                  <li><a class="dropdown-item" href="#serviços">Videos Cinematicos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#serviços">Realidade Virtual</a></li>
+                </ul>
+
+                <li class="nav-item dropdown" style="width: 750px;">
+                    <a class="nav-link dropdown-toggle col-lg 8" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: aliceblue; text-align:right;">
+                      Jonathan
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 750px;">
+                      <li><a class="dropdown-item" href="#">Perfil</a></li>
+                      <li><a class="dropdown-item" href="#">Sair</a></li>
+                      
+                    </ul>
+                
+              </li>
+              
+
+              
+            </ul>
+            
+            
+                </a>
+          </div>
+        </div>
+      </nav>
+    </section>
+<section class="container" id="quemsomos">
+    <div class="container-fluid quemsomos">
+        <p><h3>Somos especialistas em</h3></p><br>
+        <img src="/aula_bootstrap/img/capa-facebook-twitter.png"  style="width:100%; height:300px">
+        <p><h4>Somos um time comprometidos com resultados, <br>
+            de alta performance em realidade virtual!</h4></p>
+    </div>
+</section>
+<section id="parceiros" class="container">
+    <h3>Parceiros</h3><br>
+    <div class="container">
+        <div class="row">
+        <div class="col-lg 4">
+            <p>Somos uma empresa tecnologica</p>
+    
+            <img src="/aula_bootstrap/img/accenture.png" class="rounded-circle" style="width: 55%;margin-top: 30px;">
+        </div>
+        
+        <div class="col-lg 4">
+            <p class="center">Soluções tecnologicas de alta performance!</p>
+            <img src="/aula_bootstrap/img/images.jfif" class="rounded-circle"  style="margin-top: 30px;">
+            </div>
+        
+        <div class="col-lg 4">
+            <p>Precisa pesquisar algo? Da um google!</p>
+            <img src="/aula_bootstrap/img/Google.png" class="rounded-circle" style="width: 55%;margin-top: 30px;"></div>
+    </div>
+    </div>
+    
+</section>
+
+<section id="serviços" class="container" style="padding-bottom: 30px;">
+<Div style="text-align: center; margin-top: 30px;"> <h3>Serviços</h3></Div> <br>
+<div id="serv" class="row" style="text-align: center;">
+    <div class="col-lg 4"> <img class="rounded-circle" src="/aula_bootstrap/img/realidade_virtual.png" style="width: 100%;" >
+        <p style="text-align: center">Realidade Virtual</p>
+        <p>É a interface visual que leva o usuário para dentro do ambiente virtual, onde ele pode interagir e sentir como se estivesse lá.</p>
+
+    </div>
+    <div  class="col-lg 4">
+        <img class="rounded-circle" style="width: 100%;" src="/aula_bootstrap/img/render.png">
+        <p style="text-align: center !important;">Render 3D</p>
+        <p>Imagens que sintetizam o projeto através de uma renderização criada com a mais poderosa tecnologia 3D.</p>
+    </div>
+    <div class="col-lg 4" >
+        <img  class="rounded-circle" style="width: 100%;" src="/aula_bootstrap/img/filmes.png">
+        <p style="text-align: center">Filmes e Animações 3</p>
+        <p>Filmes criados através da ultima geração de computação gráfica, a mesma utilizada no cinema.</p>
+    </div>
+    <div class="col-lg 4">
+        <img class="rounded-circle" src="/aula_bootstrap/img/plantas.png" style="width: 100%;">
+        <p style="text-align: center">Plantas Humanizadas</p>
+        <p style="text-align: justify;">A planta humanizada representa os ambientes dos projetos vistos do topo, especialmente utilizada para mostrar a relação entre os ambientes e as proporções.</p>
+    </div>
+</div>
+</section>
+<footer class="container-fluid " style="background-color: black; text-align:center; height: 100px;"> Desenvolvido por Jonathan Saints! </footer>
+
+      <script src="JQ.js"></script>
+      <script src="/aula_bootstrap/bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+</html>

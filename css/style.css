@@ -1,0 +1,30 @@
+body{
+    font: normalarial;
+}
+.navbar{
+    
+    background-color: rgb(3, 3, 3) !important;
+}
+
+#quemsomos{
+    color: rgb(14, 4, 54);
+    background-color: rgb(214, 214, 236) !important;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+
+}
+
+#parceiros{
+    color: aliceblue;
+    text-align: center;
+    background-color: rgb(36, 37, 37);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#serv{
+    color: blue;
+    text-align: justify !important;
+}
+
